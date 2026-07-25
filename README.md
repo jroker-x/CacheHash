@@ -7,7 +7,7 @@ The repository currently contains two open addressing collision resolution strat
 * **Linear Probing**
 * **Robin Hood Hashing**
 
-Both implementations share the same core hash table interface while demonstrating different approaches to collision resolution, deletion, and performance optimization.
+Both implementations share the same core hash table interface while demonstrating different approaches to collision resolution, deletion, and performance optimization (do note that each of them have specific functions made only to work for them for e.g Linear Probing has some functions ending with LP whilst RobinHood has some ending with RH but most functions are universal).
 
 ---
 
